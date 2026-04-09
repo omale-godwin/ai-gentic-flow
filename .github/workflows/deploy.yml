@@ -85,7 +85,7 @@ jobs:
             docker run -d \
               --name ai-gentic-flow \
               --restart unless-stopped \
-              -p 3000:3000 \
+              -p 3003:3000 \
               --env-file /var/www/ai-gentic-flow/.env \
               $IMAGE
 
