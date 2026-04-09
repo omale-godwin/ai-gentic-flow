@@ -86,7 +86,7 @@ jobs:
               --name ai-gentic-flow \
               --restart unless-stopped \
               -p 3003:3000 \
-              --env-file ai-gentic-flow/.env \
+              --env-file /home/product-user/ai-gentic-flow/.env \
               $IMAGE
 
             # Remove dangling images to save disk space
